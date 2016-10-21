@@ -1,0 +1,11 @@
+作用：
+    1.适配手机分辨率，以px为单位
+用法：
+    1.在app androidmanifest.xml中配置：（参数为原型图的像素）
+        <meta-data
+            android:name="design_width"
+            android:value="750" />
+        <meta-data
+            android:name="design_height"
+            android:value="1334" />
+    2.activity继承或间接继承AutoLayoutActivity; fragment布局中使用 AutoLinearLayout | AutoRelativeLayout为父布局

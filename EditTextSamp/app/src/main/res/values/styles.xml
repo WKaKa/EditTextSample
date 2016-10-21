@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--无标题-->
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+    <!-- 按钮样式 -->
+    <style name="btn_bg_and_textcolor">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">90px</item>
+        <item name="android:textSize">36px</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/wtm_btn_bg_selector</item>
+        <item name="android:textColor">@drawable/zgq_btn_text_color</item>
+    </style>
+
+</resources>
